@@ -17,7 +17,7 @@ class _platnlistState extends State<platnlist> {
       children: [
         Center(
           child: Container(
-            height: 200,
+            height: 50.h,
             child: ListView(
               shrinkWrap: true,
               scrollDirection: Axis.vertical,
@@ -25,29 +25,33 @@ class _platnlistState extends State<platnlist> {
                 getPlantCard(
                     'assets/images/outdoor.jpg', '25', 'OUTDOOR', 'Alo Vera'),
                 SizedBox(
-                  width: 15,
+                  height: 20,
+                  width: 20,
                 ),
                 getPlantCard(
                     'assets/images/indoor.webp', '30', 'INDOOR', 'Ficus'),
                 SizedBox(
-                  width: 15,
+                  height: 20,
+                  width: 20,
                 ),
                 getPlantCard(
                     'assets/images/plants.jpg', '35', 'HOME', 'Plants'),
                 SizedBox(
-                  width: 15,
+                  height: 20,
+                  width: 20,
                 ),
                 getPlantCard(
                     'assets/images/garden.webp', '45', 'GARDEN', 'Garden'),
                 SizedBox(
-                  width: 15,
+                  height: 20,
+                  width: 20,
                 ),
               ],
             ),
           ),
         ),
         Container(
-          height: 10.h,
+          height: 5.h,
           child: Padding(
             padding: EdgeInsets.only(left: 25, right: 10),
             child: Text(
@@ -86,14 +90,14 @@ class _platnlistState extends State<platnlist> {
       children: [
         Center(
           child: Container(
-            height: 250.h,
+            height: 50.h,
             width: 70.w,
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 color: Color(0xff399d63),
               ),
-              height: 200.h,
+              height: 100.h,
               width: 50.w,
               child: Column(children: [
                 Row(
@@ -127,7 +131,7 @@ class _platnlistState extends State<platnlist> {
                 ),
                 Image(
                   image: AssetImage(imgPath),
-                  height: 165,
+                  height: 195,
                 ),
                 Row(
                   children: [
@@ -255,7 +259,7 @@ class _platnlistState extends State<platnlist> {
           ),
         ),
         Padding(
-          padding: EdgeInsets.only(left: 90, top: 200),
+          padding: EdgeInsets.only(left: 250, top: 230),
           child: Container(
             height: 5.0.h,
             width: 10.w,
